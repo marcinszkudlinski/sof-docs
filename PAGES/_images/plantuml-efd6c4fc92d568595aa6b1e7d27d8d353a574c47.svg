@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="212px" preserveAspectRatio="none" style="width:1229px;height:212px;" version="1.1" viewBox="0 0 1229 212" width="1229px" zoomAndPan="magnify"><defs><filter height="300%" id="f2qodla6ajrlh" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[21b53f91db933f4ba1987aabd6a451e4]
+cluster comp_buffer--><polygon fill="#FFFFFF" filter="url(#f2qodla6ajrlh)" points="541,31.7,636,31.7,643,55.3094,925.9,55.3094,925.9,161.7,541,161.7,541,31.7" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="541" x2="643" y1="55.3094" y2="55.3094"/><text fill="#33335B" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="89" x="545" y="48.2332">comp_buffer</text><ellipse cx="640.8153" cy="94.7031" fill="#FEFECE" filter="url(#f2qodla6ajrlh)" rx="75.8153" ry="17.5631" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#33335B" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="116" x="582.8153" y="100.0077">shadow dp_queue</text><ellipse cx="839.2659" cy="102.7021" fill="#FEFECE" filter="url(#f2qodla6ajrlh)" rx="62.6359" ry="27.4221" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#33335B" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="79" x="799.7659" y="98.5146">comp_buffer</text><text fill="#33335B" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="86" x="796.2659" y="116.124">audio_stream</text><ellipse cx="251.0011" cy="89.7042" fill="#FEFECE" filter="url(#f2qodla6ajrlh)" rx="72.6711" ry="16.9342" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#33335B" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="53" x="197.0011" y="95.0089">Module</text><text fill="#33335B" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="254.0011" y="95.0089"/><text fill="#33335B" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="51" x="254.0011" y="95.0089">useSink</text><ellipse cx="1099.065" cy="102.703" fill="#FEFECE" filter="url(#f2qodla6ajrlh)" rx="119.165" ry="26.233" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#33335B" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="41" x="991.565" y="108.0077">legacy</text><text fill="#33335B" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="53" x="1036.565" y="108.0077">Module</text><text fill="#33335B" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="1093.565" y="108.0077"/><text fill="#33335B" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="113" x="1093.565" y="108.0077">use audio_stream</text><!--MD5=[b8de523b24ec101758821f27a12ea43c]
+entity sh--><ellipse cx="37" cy="127.39" fill="#FFFFFF" filter="url(#f2qodla6ajrlh)" rx="8" ry="8" style="stroke: #33335B; stroke-width: 2.0;"/><path d="M37,135.39 L37,162.39 M24,143.39 L50,143.39 M37,162.39 L24,177.39 M37,162.39 L50,177.39 " fill="none" filter="url(#f2qodla6ajrlh)" style="stroke: #33335B; stroke-width: 2.0;"/><text fill="#33335B" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="62" x="6" y="198.9232">scheduler</text><!--MD5=[2e96fee26309860f1351b589c6d2f448]
+link mod1 to DP1--><path d="M324.04,90.62 C390.59,91.48 489.36,92.76 558.67,93.65 " fill="none" id="mod1-&gt;DP1" style="stroke: #F05772; stroke-width: 1.0;"/><polygon fill="#F05772" points="563.35,93.71,554.4082,89.5815,558.3505,93.6384,554.2936,97.5807,563.35,93.71" style="stroke: #F05772; stroke-width: 1.0;"/><text fill="#33335B" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="112" x="404" y="88.1951">all feaures available</text><!--MD5=[7e8dbcea8898b50fa1d96c5bf9c67399]
+link DP1 to cb1--><path d="M715.81,97.71 C733.63,98.43 752.59,99.21 770.13,99.92 " fill="none" id="DP1-&gt;cb1" style="stroke: #F05772; stroke-width: 1.0;"/><polygon fill="#F05772" points="775.01,100.12,766.1776,95.7625,770.014,99.9196,765.8569,103.756,775.01,100.12" style="stroke: #F05772; stroke-width: 1.0;"/><!--MD5=[65e02530bd83d8b607ead80ef283da0c]
+link cb1 to mod2--><path d="M902.34,102.7 C923.77,102.7 948.6,102.7 973.24,102.7 " fill="none" id="cb1-&gt;mod2" style="stroke: #F05772; stroke-width: 1.0;"/><polygon fill="#F05772" points="977.98,102.7,968.98,98.7,972.98,102.7,968.98,106.7,977.98,102.7" style="stroke: #F05772; stroke-width: 1.0;"/><!--MD5=[9dcc41cca70bfaa7c52662bb13e2a469]
+link sh to comp_buffer--><path d="M68.26,159.39 C128.8,158.79 269.9375,157.385 396.805,156.1213 C428.5219,155.8053 459.3469,155.4982 487.7977,155.2147 C502.0231,155.073 515.655,154.9371 528.508,154.809 C531.7213,154.777 534.8858,154.7455 537.9989,154.7144 C538.7771,154.7067 539.5521,154.699 540.3239,154.6913 " fill="none" id="sh-&gt;comp_buffer" style="stroke: #F05772; stroke-width: 1.0;"/><polygon fill="#F05772" points="540.3239,154.6913,531.2845,150.7812,535.3241,154.7411,531.3642,158.7808,540.3239,154.6913" style="stroke: #F05772; stroke-width: 1.0;"/><text fill="#33335B" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="242" x="130" y="153.1951">trigger copy from shadow to audio_stream</text><!--MD5=[6f7c6e6fdf20edd61be3947594a9fe9e]
+@startuml
+hidefootbox
+skinparam componentStyle uml2
+
+skinparam defaultFontColor	#33335b
+
+skinparam rectangle {
+	color		#d6d6de
+	backgroundColor	#ffffff
+}
+
+skinparam component {
+	backgroundColor	#ffffff
+	borderColor	#33335b
+	arrowColor	#f05772
+}
+
+skinparam interface {
+	backgroundColor	#ffffff
+	borderColor	#f05772
+}
+
+skinparam class {
+	backgroundColor	#ffffff
+	borderColor	#33335b
+	arrowColor	#f05772
+}
+skinparam stereotypeCBackgroundColor	#6fccdd
+
+skinparam sequence {
+	arrowColor		#4a4a86
+	lifeLineBorderColor	#f05772
+	groupBorderColor	#a1a1ca
+	boxBorderColor		#a1a1ca
+	dividerBorderColor	#d6d6de
+	dividerBorderThickness	1
+}
+skinparam participant {
+	borderColor		#33335b
+	backgroundColor		#ffffff
+}
+skinparam actor {
+	borderColor		#33335b
+	backgroundColor		#ffffff
+}
+
+skinparam state {
+	borderColor		#33335b
+	backgroundColor		#ffffff
+}
+
+skinparam node {
+	backgroundColor		#ffffff
+}
+
+skinparam note {
+	backgroundColor 	#f6ed80
+	borderColor		#d6d6de
+}
+
+skinparam activity {
+	borderColor		#33335b
+	backgroundColor		#ffffff
+}
+
+skinparam activityDiamond {
+	borderColor		#33335b
+	backgroundColor		#ffffff
+}
+
+skinparam arrowColor	#f05772
+skinparam maxMessageSize 400
+skinparam BoxPadding 4
+(**Module** //useSink//) as mod1
+(legacy **Module** //use audio_stream//) as mod2
+package comp_buffer{
+  left to right direction
+  usecase "shadow dp_queue" as DP1
+  usecase "comp_buffer \n audio_stream" as cb1
+}
+mod1 - -> DP1 : all feaures available
+DP1 - -> cb1
+cb1 - -> mod2
+:scheduler: as sh
+sh - - -> comp_buffer : trigger copy from shadow to audio_stream
+@enduml
+
+PlantUML version 1.2019.12(Sun Nov 03 11:24:54 CET 2019)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 17.0.10+7
+Operating System: Windows 11
+Default Encoding: Cp1252
+Language: en
+Country: US
+--></g></svg>

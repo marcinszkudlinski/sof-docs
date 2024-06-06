@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="56px" preserveAspectRatio="none" style="width:630px;height:56px;" version="1.1" viewBox="0 0 630 56" width="630px" zoomAndPan="magnify"><defs><filter height="300%" id="fatao9jm6rrhs" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><ellipse cx="79.449" cy="27.1998" fill="#FEFECE" filter="url(#fatao9jm6rrhs)" rx="73.449" ry="17.0898" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#33335B" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="61" x="24.449" y="32.5045">Module1</text><text fill="#33335B" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="89.449" y="32.5045"/><text fill="#33335B" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="45" x="89.449" y="32.5045">Source</text><!--MD5=[1a1d9af385d562ad34ef6d0d1f995402]
+entity copy1--><rect fill="#FFFFFF" filter="url(#fatao9jm6rrhs)" height="37.6094" style="stroke: #000000; stroke-width: 1.5;" width="214" x="212.9" y="8.39"/><text fill="#33335B" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="68" x="222.9" y="32.9232">useSource</text><text fill="#33335B" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="294.9" y="32.9232"/><text fill="#33335B" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="67" x="294.9" y="32.9232">S2S_copy</text><text fill="#33335B" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="365.9" y="32.9232"/><text fill="#33335B" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="51" x="365.9" y="32.9232">useSink</text><ellipse cx="553.2112" cy="27.2022" fill="#FEFECE" filter="url(#fatao9jm6rrhs)" rx="66.3112" ry="15.6622" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#33335B" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="26" x="507.7112" y="32.5069">sink</text><text fill="#33335B" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="537.7112" y="32.5069"/><text fill="#33335B" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="61" x="537.7112" y="32.5069">Module2</text><!--MD5=[c3e6340d5e68b4dc83a1b783d2380ba1]
+link mod1 to copy1--><path d="M153.29,27.2 C170.15,27.2 188.47,27.2 206.58,27.2 " fill="none" id="mod1-&gt;copy1" style="stroke: #F05772; stroke-width: 1.0;"/><polygon fill="#F05772" points="211.2,27.2,202.2,23.2,206.2,27.2,202.2,31.2,211.2,27.2" style="stroke: #F05772; stroke-width: 1.0;"/><!--MD5=[03604587bfd39a1cbfc260a92f82241a]
+link copy1 to mod2--><path d="M427.08,27.2 C445.16,27.2 463.56,27.2 480.49,27.2 " fill="none" id="copy1-&gt;mod2" style="stroke: #F05772; stroke-width: 1.0;"/><polygon fill="#F05772" points="485.14,27.2,476.14,23.2,480.14,27.2,476.14,31.2,485.14,27.2" style="stroke: #F05772; stroke-width: 1.0;"/><!--MD5=[0d3ff749ddd193f0c3840c31cb0f719e]
+@startuml
+hidefootbox
+skinparam componentStyle uml2
+
+skinparam defaultFontColor	#33335b
+
+skinparam rectangle {
+	color		#d6d6de
+	backgroundColor	#ffffff
+}
+
+skinparam component {
+	backgroundColor	#ffffff
+	borderColor	#33335b
+	arrowColor	#f05772
+}
+
+skinparam interface {
+	backgroundColor	#ffffff
+	borderColor	#f05772
+}
+
+skinparam class {
+	backgroundColor	#ffffff
+	borderColor	#33335b
+	arrowColor	#f05772
+}
+skinparam stereotypeCBackgroundColor	#6fccdd
+
+skinparam sequence {
+	arrowColor		#4a4a86
+	lifeLineBorderColor	#f05772
+	groupBorderColor	#a1a1ca
+	boxBorderColor		#a1a1ca
+	dividerBorderColor	#d6d6de
+	dividerBorderThickness	1
+}
+skinparam participant {
+	borderColor		#33335b
+	backgroundColor		#ffffff
+}
+skinparam actor {
+	borderColor		#33335b
+	backgroundColor		#ffffff
+}
+
+skinparam state {
+	borderColor		#33335b
+	backgroundColor		#ffffff
+}
+
+skinparam node {
+	backgroundColor		#ffffff
+}
+
+skinparam note {
+	backgroundColor 	#f6ed80
+	borderColor		#d6d6de
+}
+
+skinparam activity {
+	borderColor		#33335b
+	backgroundColor		#ffffff
+}
+
+skinparam activityDiamond {
+	borderColor		#33335b
+	backgroundColor		#ffffff
+}
+
+skinparam arrowColor	#f05772
+skinparam maxMessageSize 400
+skinparam BoxPadding 4
+left to right direction
+(**Module1** //Source//) as mod1
+rectangle "//useSource// **S2S_copy** //useSink// " as copy1
+(//sink// **Module2**) as mod2
+
+mod1 - -> copy1
+copy1 - -> mod2
+
+@enduml
+
+PlantUML version 1.2019.12(Sun Nov 03 11:24:54 CET 2019)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 17.0.10+7
+Operating System: Windows 11
+Default Encoding: Cp1252
+Language: en
+Country: US
+--></g></svg>
