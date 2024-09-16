@@ -685,7 +685,6 @@ The purpose of the changes is to make the pipeline:</p>
 <p>initial headsup is here: <a class="reference external" href="https://github.com/thesofproject/sof/issues/7261">https://github.com/thesofproject/sof/issues/7261</a>,</p>
 <p>previous version of the document here: <a class="reference external" href="https://github.com/orgs/thesofproject/discussions/8645">https://github.com/orgs/thesofproject/discussions/8645</a></p>
 <p>some of the changes have already been implemented, but with a lot of workarounds i.e. in DP processing.</p>
-<p>The main change for pipeline2.0 is</p>
 <section id="module-scheduling">
 <h2>Module scheduling<a class="headerlink" href="#module-scheduling" title="Link to this heading">¶</a></h2>
 <section id="low-latency-ll-scheduling-type">
@@ -973,6 +972,25 @@ sh ---&gt; comp_buffer : trigger copy from shadow to audio_stream
 </section>
 <section id="id1">
 <h2>Module binding<a class="headerlink" href="#id1" title="Link to this heading">¶</a></h2>
+<p>In pipeline2.0 a buffer is no longer a main connector between modules, but its functionality is limited to the main purpose: a storage space for audio samples. The pipeline structure must be therefore stored using some other structures.
+See “Module creation and pipeline iteration” for some details.</p>
+<p><em>other implentation details - TODO</em></p>
+<section id="buffer-apis-2-0-new">
+<h3>Buffer APIs (2.0 new)<a class="headerlink" href="#buffer-apis-2-0-new" title="Link to this heading">¶</a></h3>
+<dl class="simple">
+<dt>All buffers in the system must implement 3 types of API:</dt><dd><ul class="simple">
+<li><p>sink API (described before - exposed to a data produce module)</p></li>
+<li><p>source API (described before - exposed to a data consumer module)</p></li>
+<li><p>audio_buffer API (exposed to pipeline code, not to the modules)</p></li>
+</ul>
+</dd>
+</dl>
+<p>Audio buffer is a “base abstract class” for all buffers in the system. It provides API  required for buffer mainenance - creation, deletion, etc. This API should not be exposed to the modules.</p>
+<p>(1.0 compatibility) before 2.0 is implemented, some features for module binding (ilke “is_walked” flag, etc.) must be also put into audio_buffer API.</p>
+<p>Note that modules have access to sink or source API only, modules cannot use audio_buffer API because (as described) there are more types of data sources / data recievers than buffers. That generates a requirement: sink/source API must
+provide all required data/functions for a module to configure and use data source. For performance reasons there may be neccessary keeping a shortcuts to certains strucures, like audio data parameters, in all APIs.</p>
+<p>Also the pipeline code must maitain buffers using audio_buffer API only, there must not be any “side calls” to buffers code.</p>
+</section>
 <section id="buffer-facory-2-0-new">
 <h3>Buffer facory (2.0 new)<a class="headerlink" href="#buffer-facory-2-0-new" title="Link to this heading">¶</a></h3>
 <p>a module should declare it needs on every input and output:</p>
@@ -1070,7 +1088,7 @@ This buffer should be used if modules cannot be bound using shared buffer, at le
 
   <div role="contentinfo">
     <p>&#169; Copyright 2024, SOF Project.
-      <span class="lastupdated">Last updated on Jun 06, 2024.
+      <span class="lastupdated">Last updated on Sep 16, 2024.
       </span></p>
   </div>
 
