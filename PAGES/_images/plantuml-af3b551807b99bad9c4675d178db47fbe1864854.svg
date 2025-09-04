@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="220px" preserveAspectRatio="none" style="width:1012px;height:220px;" version="1.1" viewBox="0 0 1012 220" width="1012px" zoomAndPan="magnify"><defs><filter height="300%" id="f150186pjq7jv8" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><ellipse cx="25.9706" cy="53.3017" fill="#F6ED80" filter="url(#f150186pjq7jv8)" rx="19.9706" ry="15.4517" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#33335B" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="24" x="13.9706" y="58.6064">LL1</text><!--MD5=[5d22f46591651d873fa5f01919463b1f]
+entity buf1--><rect fill="#FFFFFF" filter="url(#f150186pjq7jv8)" height="90.4375" style="stroke: #000000; stroke-width: 1.5;" width="102" x="131.44" y="8.08"/><text fill="#33335B" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="35" x="141.44" y="32.6132">BUF1</text><text fill="#33335B" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="145.44" y="50.2226"/><text fill="#33335B" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="82" x="141.44" y="67.832">14ms of data</text><text fill="#33335B" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="145.44" y="85.4413"/><path d="M105.94,133.59 L105.94,208.9963 A0,0 0 0 0 105.94,208.9963 L258.94,208.9963 A0,0 0 0 0 258.94,208.9963 L258.94,143.59 L248.94,133.59 L186.44,133.59 L182.44,98.72 L178.44,133.59 L105.94,133.59 A0,0 0 0 0 105.94,133.59 " fill="#F6ED80" filter="url(#f150186pjq7jv8)" style="stroke: #D6D6DE; stroke-width: 1.0;"/><path d="M248.94,133.59 L248.94,143.59 L258.94,143.59 L248.94,133.59 " fill="#F6ED80" style="stroke: #D6D6DE; stroke-width: 1.0;"/><text fill="#33335B" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="99" x="111.94" y="152.0851">there was 109ms</text><text fill="#33335B" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="107" x="111.94" y="168.4367">LL1 produced 5ms</text><text fill="#33335B" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="132" x="111.94" y="184.7882">DP1 consumed 100ms</text><text fill="#33335B" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="109" x="111.94" y="201.1398">109+5-100 = 14ms</text><ellipse cx="368.4419" cy="53.3017" fill="#ADD1B2" filter="url(#f150186pjq7jv8)" rx="22.0919" ry="15.4517" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#33335B" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="27" x="354.9419" y="58.6064">DP1</text><path d="M318.94,103.95 L318.94,146.6531 A0,0 0 0 0 318.94,146.6531 L417.94,146.6531 A0,0 0 0 0 417.94,146.6531 L417.94,113.95 L407.94,103.95 L372.44,103.95 L368.44,69.03 L364.44,103.95 L318.94,103.95 A0,0 0 0 0 318.94,103.95 " fill="#F6ED80" filter="url(#f150186pjq7jv8)" style="stroke: #D6D6DE; stroke-width: 1.0;"/><path d="M407.94,103.95 L407.94,113.95 L417.94,113.95 L407.94,103.95 " fill="#F6ED80" style="stroke: #D6D6DE; stroke-width: 1.0;"/><text fill="#33335B" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="78" x="324.94" y="122.4451">period 100ms</text><text fill="#33335B" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="60" x="324.94" y="138.7967">LPT:  5ms</text><!--MD5=[09669385afe7e2c2493411eba046fab2]
+entity buf2--><rect fill="#FFFFFF" filter="url(#f150186pjq7jv8)" height="90.4375" style="stroke: #000000; stroke-width: 1.5;" width="110" x="477.94" y="8.08"/><text fill="#33335B" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="35" x="487.94" y="32.6132">BUF2</text><text fill="#33335B" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="491.94" y="50.2226"/><text fill="#33335B" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="90" x="487.94" y="67.832">100ms of data</text><text fill="#33335B" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="491.94" y="85.4413"/><ellipse cx="693.9419" cy="53.3017" fill="#ADD1B2" filter="url(#f150186pjq7jv8)" rx="22.0919" ry="15.4517" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#33335B" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="27" x="680.4419" y="58.6064">DP2</text><path d="M647.94,103.95 L647.94,146.6531 A0,0 0 0 0 647.94,146.6531 L739.94,146.6531 A0,0 0 0 0 739.94,146.6531 L739.94,113.95 L729.94,103.95 L697.94,103.95 L693.94,69.03 L689.94,103.95 L647.94,103.95 A0,0 0 0 0 647.94,103.95 " fill="#F6ED80" filter="url(#f150186pjq7jv8)" style="stroke: #D6D6DE; stroke-width: 1.0;"/><path d="M729.94,103.95 L729.94,113.95 L739.94,113.95 L729.94,103.95 " fill="#F6ED80" style="stroke: #D6D6DE; stroke-width: 1.0;"/><text fill="#33335B" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="71" x="653.94" y="122.4451">period 10ms</text><text fill="#33335B" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="60" x="653.94" y="138.7967">LPT:  9ms</text><!--MD5=[314e2eb86b776a866fe0256c837c215b]
+entity buf3--><rect fill="#FFFFFF" filter="url(#f150186pjq7jv8)" height="90.4375" style="stroke: #000000; stroke-width: 1.5;" width="102" x="799.94" y="8.08"/><text fill="#33335B" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="35" x="809.94" y="32.6132">BUF3</text><text fill="#33335B" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="813.94" y="50.2226"/><text fill="#33335B" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="82" x="809.94" y="67.832">11ms of data</text><text fill="#33335B" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="813.94" y="85.4413"/><ellipse cx="981.9106" cy="53.3017" fill="#F6ED80" filter="url(#f150186pjq7jv8)" rx="19.9706" ry="15.4517" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#33335B" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="24" x="969.9106" y="58.6064">LL2</text><!--MD5=[df65c77ac4b23fee284ac96141319ade]
+link mod1 to buf1--><path d="M46.22,53.3 C65.85,53.3 97.24,53.3 124.84,53.3 " fill="none" id="mod1-&gt;buf1" style="stroke: #F05772; stroke-width: 1.0;"/><polygon fill="#F05772" points="129.52,53.3,120.52,49.3,124.52,53.3,120.52,57.3,129.52,53.3" style="stroke: #F05772; stroke-width: 1.0;"/><!--MD5=[3da331e53385dbf693d9d454d6235b4b]
+link buf1 to mod2--><path d="M233.72,53.3 C267.8,53.3 311.58,53.3 339.58,53.3 " fill="none" id="buf1-&gt;mod2" style="stroke: #F05772; stroke-width: 1.0;"/><polygon fill="#F05772" points="344.48,53.3,335.48,49.3,339.48,53.3,335.48,57.3,344.48,53.3" style="stroke: #F05772; stroke-width: 1.0;"/><!--MD5=[eed46d208007f879a35f6ae7d3ec9c2d]
+link mod2 to buf2--><path d="M391.02,53.3 C411.49,53.3 443.21,53.3 471.38,53.3 " fill="none" id="mod2-&gt;buf2" style="stroke: #F05772; stroke-width: 1.0;"/><polygon fill="#F05772" points="476.19,53.3,467.19,49.3,471.19,53.3,467.19,57.3,476.19,53.3" style="stroke: #F05772; stroke-width: 1.0;"/><!--MD5=[920971b403b6dd8672d0721d775be8ab]
+link buf2 to mod3--><path d="M588.22,53.3 C614.14,53.3 644.06,53.3 665.26,53.3 " fill="none" id="buf2-&gt;mod3" style="stroke: #F05772; stroke-width: 1.0;"/><polygon fill="#F05772" points="670.04,53.3,661.04,49.3,665.04,53.3,661.04,57.3,670.04,53.3" style="stroke: #F05772; stroke-width: 1.0;"/><!--MD5=[d2dd8acab52e70a55c229c1191f54284]
+link mod3 to buf3--><path d="M716.49,53.3 C736.28,53.3 766.5,53.3 793.18,53.3 " fill="none" id="mod3-&gt;buf3" style="stroke: #F05772; stroke-width: 1.0;"/><polygon fill="#F05772" points="798,53.3,789,49.3,793,53.3,789,57.3,798,53.3" style="stroke: #F05772; stroke-width: 1.0;"/><!--MD5=[cd5393936a715c9ee6f62f24a0c24840]
+link buf3 to mod4--><path d="M902.17,53.3 C920.37,53.3 940.16,53.3 955.34,53.3 " fill="none" id="buf3-&gt;mod4" style="stroke: #F05772; stroke-width: 1.0;"/><polygon fill="#F05772" points="960.04,53.3,951.04,49.3,955.04,53.3,951.04,57.3,960.04,53.3" style="stroke: #F05772; stroke-width: 1.0;"/><!--MD5=[d85c377ac0dec8865e49a8df843add85]
+@startuml
+hidefootbox
+skinparam componentStyle uml2
+
+skinparam defaultFontColor	#33335b
+
+skinparam rectangle {
+	color		#d6d6de
+	backgroundColor	#ffffff
+}
+
+skinparam component {
+	backgroundColor	#ffffff
+	borderColor	#33335b
+	arrowColor	#f05772
+}
+
+skinparam interface {
+	backgroundColor	#ffffff
+	borderColor	#f05772
+}
+
+skinparam class {
+	backgroundColor	#ffffff
+	borderColor	#33335b
+	arrowColor	#f05772
+}
+skinparam stereotypeCBackgroundColor	#6fccdd
+
+skinparam sequence {
+	arrowColor		#4a4a86
+	lifeLineBorderColor	#f05772
+	groupBorderColor	#a1a1ca
+	boxBorderColor		#a1a1ca
+	dividerBorderColor	#d6d6de
+	dividerBorderThickness	1
+}
+skinparam participant {
+	borderColor		#33335b
+	backgroundColor		#ffffff
+}
+skinparam actor {
+	borderColor		#33335b
+	backgroundColor		#ffffff
+}
+
+skinparam state {
+	borderColor		#33335b
+	backgroundColor		#ffffff
+}
+
+skinparam node {
+	backgroundColor		#ffffff
+}
+
+skinparam note {
+	backgroundColor 	#f6ed80
+	borderColor		#d6d6de
+}
+
+skinparam activity {
+	borderColor		#33335b
+	backgroundColor		#ffffff
+}
+
+skinparam activityDiamond {
+	borderColor		#33335b
+	backgroundColor		#ffffff
+}
+
+skinparam arrowColor	#f05772
+skinparam maxMessageSize 400
+skinparam BoxPadding 4
+left to right direction
+(LL1) as mod1 #f6ed80
+
+rectangle "BUF1\n\n14ms of data\n" as buf1
+note bottom of buf1
+  there was 109ms
+  LL1 produced 5ms
+  DP1 consumed 100ms
+  109+5-100 = 14ms
+end note
+
+(DP1) as mod2 #ADD1B2
+
+note bottom of mod2
+  period 100ms
+  LPT:  5ms
+end note
+
+rectangle "BUF2\n\n100ms of data\n" as buf2
+
+(DP2) as mod3 #ADD1B2
+
+note bottom of mod3
+  period 10ms
+  LPT:  9ms
+end note
+
+rectangle "BUF3\n\n11ms of data\n" as buf3
+
+(LL2) as mod4 #f6ed80
+
+
+mod1- -> buf1
+buf1 - -> mod2
+mod2- ->buf2
+buf2 - -> mod3
+mod3- ->buf3
+buf3 - -> mod4
+@enduml 
+
+PlantUML version 1.2019.12(Sun Nov 03 11:24:54 CET 2019)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 21.0.8+9-LTS
+Operating System: Windows 11
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>
